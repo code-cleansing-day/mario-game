@@ -8,7 +8,7 @@ interface Character {
 
 interface Monster extends Character {}
 
-type MonsterData = (typeof MONSTER_DATA)[keyof typeof MONSTER_DATA]
+export type MonsterData = (typeof MONSTER_DATA)[keyof typeof MONSTER_DATA]
 
 export class BaseMonster implements Monster {
     name: MonsterData['name']
