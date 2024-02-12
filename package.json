@@ -5,6 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "dev-cj": "vite serve src/철진",
+    "dev-ds": "vite serve src/다슬",
+    "dev-ec": "vite serve src/은채",
+    "dev-jw": "vite serve src/종원",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
